@@ -5,7 +5,7 @@ using System.Collections.Generic;
 public class ObjectPooler : MonoBehaviour
 {
 
-    public static ObjectPooler current;
+    //public static ObjectPooler current;
     public GameObject pooledObject;
     public int pooledAmount = 20;
 
@@ -19,7 +19,7 @@ public class ObjectPooler : MonoBehaviour
 
     void Awake()
     {
-        current = this;
+        //current = this;
     }
 
     // Use this for initialization
