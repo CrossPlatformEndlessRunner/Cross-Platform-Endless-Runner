@@ -1,0 +1,17 @@
+C:\Users\SHENRON\Documents\GitHub\Cross-Platform-Endless-Runner\EndlessRunnerAndroid\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+C:\Users\SHENRON\Documents\GitHub\Cross-Platform-Endless-Runner\EndlessRunnerAndroid\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+C:\Users\SHENRON\Documents\GitHub\Cross-Platform-Endless-Runner\EndlessRunnerAndroid\Temp\UnityVS_bin\Debug\Mono.Cecil.dll
+C:\Users\SHENRON\Documents\GitHub\Cross-Platform-Endless-Runner\EndlessRunnerAndroid\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\SHENRON\Documents\GitHub\Cross-Platform-Endless-Runner\EndlessRunnerAndroid\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+C:\Users\SHENRON\Documents\GitHub\Cross-Platform-Endless-Runner\EndlessRunnerAndroid\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Users\SHENRON\Documents\GitHub\Cross-Platform-Endless-Runner\EndlessRunnerAndroid\Temp\UnityVS_bin\Debug\UnityEngine.Networking.dll
+C:\Users\SHENRON\Documents\GitHub\Cross-Platform-Endless-Runner\EndlessRunnerAndroid\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+C:\Users\SHENRON\Documents\GitHub\Cross-Platform-Endless-Runner\EndlessRunnerAndroid\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Users\SHENRON\Documents\GitHub\Cross-Platform-Endless-Runner\EndlessRunnerAndroid\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\Users\SHENRON\Documents\GitHub\Cross-Platform-Endless-Runner\EndlessRunnerAndroid\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+C:\Users\SHENRON\Documents\GitHub\Cross-Platform-Endless-Runner\EndlessRunnerAndroid\Temp\UnityVS_bin\Debug\UnityEngine.Networking.xml
+C:\Users\SHENRON\Documents\GitHub\Cross-Platform-Endless-Runner\EndlessRunnerAndroid\Temp\UnityVS_bin\Debug\Mono.Cecil.xml
+C:\Users\SHENRON\Documents\GitHub\Cross-Platform-Endless-Runner\EndlessRunnerAndroid\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
+C:\Users\SHENRON\Documents\GitHub\Cross-Platform-Endless-Runner\EndlessRunnerAndroid\Temp\UnityVS_obj\Debug\EndlessRunnerAndroid.CSharp.csprojResolveAssemblyReference.cache
+C:\Users\SHENRON\Documents\GitHub\Cross-Platform-Endless-Runner\EndlessRunnerAndroid\Temp\UnityVS_obj\Debug\Assembly-CSharp.dll
+C:\Users\SHENRON\Documents\GitHub\Cross-Platform-Endless-Runner\EndlessRunnerAndroid\Temp\UnityVS_obj\Debug\Assembly-CSharp.pdb
