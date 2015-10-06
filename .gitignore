@@ -1,6 +1,8 @@
 *.sdf
 EndlessRunnerAndroid\Library
 EndlessRunnerAndroid\Temp
+EndlessRunnerAndroid\Obj
+EndlessRunnerAndroid\Build
 
 /[Ll]ibrary/
 /[Tt]emp/
@@ -23,3 +25,5 @@ EndlessRunnerAndroid\Temp
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
+EndlessRunnerAndroid/Library/assetDatabase3
+EndlessRunnerAndroid/Library/UnityAssemblies/version.txt
