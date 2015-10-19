@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+# Visual Studio 2013
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EndlessRunnerAndroid.CSharp", "EndlessRunnerAndroid.CSharp.csproj", "{4C1CFDB8-9270-9D8C-FD15-B22A59299B13}"
 EndProject
 Global
