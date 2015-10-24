@@ -6,7 +6,7 @@ public class Timer : MonoBehaviour
 {
     public string       defaultTimerText = "Timer: ";
     private Text        timerText = null;
-    private float       timePassed = 0.0f;
+    private float timePassed = 0.0f;
 
     // Use this for initialization
     void Start()
@@ -21,5 +21,10 @@ public class Timer : MonoBehaviour
         timePassed += Time.deltaTime;
         timerText.text = defaultTimerText + timePassed.ToString("F2");
 
+    }
+
+    public float TimePassed
+    {
+        get { return timePassed; }
     }
 }

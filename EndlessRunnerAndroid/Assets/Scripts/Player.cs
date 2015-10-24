@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 
     private SpriteRenderer playerSprite = null;
     private Vector2[] spriteUVs;
+    public Texture2D tex;
 
     // Use this for initialization
     void Start()
@@ -18,11 +19,15 @@ public class Player : MonoBehaviour
     void Update()
     {
         //TODO: Get sprite based uv animation working; specifically sprite rotation.
-        for(int i = 0; i<spriteUVs.Length; ++i)
-        {
-            spriteUVs[i] = Rotate(spriteUVs[i], 45.0f);
-        }
+        //Debug.Log(spriteUVs.Length);
+       // for(int i = 0; i<spriteUVs.Length; ++i)
+        //{
+           // Quaternion rotation = Quaternion.Euler(0, 0, -10 * Time.deltaTime);
+            //spriteUVs[i] = rotation * spriteUVs[i];
+            //spriteUVs[i] = Rotate(spriteUVs[i], 10.0f);
+        //}
         //gameObject.transform.Rotate(Vector3.forward, 10.0f * Time.deltaTime);
+        //playerSprite.sprite.uv = spriteUVs;
     }
 
     public Vector2 Rotate(Vector2 v, float degrees)
