@@ -30,6 +30,7 @@ public class ObjectPooler : MonoBehaviour
         {
             GameObject obj = (GameObject)Instantiate(pooledObject);
             obj.SetActive(false);
+            obj.layer = LayerMask.NameToLayer("Obstacles"); //layer 9
             pooledObjects.Add(obj);
         }
     }
