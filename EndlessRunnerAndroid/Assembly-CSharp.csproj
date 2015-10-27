@@ -45,8 +45,20 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CollectableSpawner.cs" />
+     <Compile Include="Assets\Collectables.cs" />
      <Compile Include="Assets\Scripts\CameraTracking.cs" />
+     <Compile Include="Assets\Scripts\GameLogicManager.cs" />
      <Compile Include="Assets\Scripts\InputController.cs" />
+     <Compile Include="Assets\Scripts\MainMenuManager.cs" />
+     <Compile Include="Assets\Scripts\ObjectPooler.cs" />
+     <Compile Include="Assets\Scripts\Obstacle.cs" />
+     <Compile Include="Assets\Scripts\ObstacleDestroy.cs" />
+     <Compile Include="Assets\Scripts\ObstacleSpawner.cs" />
+     <Compile Include="Assets\Scripts\OptionsMenuManager.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\Score.cs" />
+     <Compile Include="Assets\Scripts\Timer.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
