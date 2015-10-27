@@ -61,18 +61,23 @@ public class CollectableSpawner : MonoBehaviour {
     //just morphed your code to work with mine :P
     void spawn_object()
     {
-        int cur_obj = 0;
-        for (; cur_obj < _pool_size; ++cur_obj)
-        {
-            if (!_obj_pool[cur_obj].activeInHierarchy)
-                break;
-        }
-        //may be buggy
-        if (cur_obj == _pool_size)
-        {
-            Debug.Log("No valid collectables to spawn");
-            return;
-        }
+        //maybe bad maybe not
+
+        //randomised a bit
+        int cur_obj = (int)Random.Range(0, _pool_size);
+        if (_obj_pool[cur_obj].activeInHierarchy) return;
+
+       // for (; cur_obj < _pool_size; ++cur_obj)
+       // {
+       // if (!_obj_pool[cur_obj].activeInHierarchy)
+       //         break;
+       // }
+       //may be buggy
+       // if (cur_obj == _pool_size)
+       // {
+       //     Debug.Log("No valid collectables to spawn");
+       //     return;
+       // }
 
         GameObject to_spawn = _obj_pool[cur_obj];
         to_spawn.transform.position = gameObject.transform.position;
