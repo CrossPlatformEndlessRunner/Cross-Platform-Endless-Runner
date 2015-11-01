@@ -1,0 +1,6 @@
+Background guidelines
+
+Dimensions
+Powers of 2
+Height - 1024
+Width - 512

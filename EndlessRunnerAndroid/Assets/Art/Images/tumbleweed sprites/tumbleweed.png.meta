@@ -1,0 +1,452 @@
+fileFormatVersion: 2
+guid: 54eeb35ce4bee5b42a088a96d1fd0c48
+timeCreated: 1446381080
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: tumbleweed_0
+    21300002: tumbleweed_1
+    21300004: tumbleweed_2
+    21300006: tumbleweed_3
+    21300008: tumbleweed_4
+    21300010: tumbleweed_5
+    21300012: tumbleweed_6
+    21300014: tumbleweed_7
+    21300016: tumbleweed_8
+    21300018: tumbleweed_9
+    21300020: tumbleweed_10
+    21300022: tumbleweed_11
+    21300024: tumbleweed_12
+    21300026: tumbleweed_13
+    21300028: tumbleweed_14
+    21300030: tumbleweed_15
+    21300032: tumbleweed_16
+    21300034: tumbleweed_17
+    21300036: tumbleweed_18
+    21300038: tumbleweed_19
+    21300040: tumbleweed_20
+    21300042: tumbleweed_21
+    21300044: tumbleweed_22
+    21300046: tumbleweed_23
+    21300048: tumbleweed_24
+    21300050: tumbleweed_25
+    21300052: tumbleweed_26
+    21300054: tumbleweed_27
+    21300056: tumbleweed_28
+    21300058: tumbleweed_29
+    21300060: tumbleweed_30
+    21300062: tumbleweed_31
+    21300064: tumbleweed_32
+    21300066: tumbleweed_33
+    21300068: tumbleweed_34
+    21300070: tumbleweed_35
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: tumbleweed_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2574
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2574
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2574
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2574
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2574
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_5
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2574
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2062
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2062
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2062
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_9
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2062
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_10
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2062
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_11
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2062
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1550
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_13
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1550
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_14
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1550
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_15
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1550
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_16
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1550
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_17
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1550
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1038
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_19
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1038
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_20
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1038
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_21
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1038
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_22
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1038
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_23
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1038
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 526
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_25
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 526
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_26
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 526
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_27
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 526
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_28
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 526
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_29
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 526
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_31
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 14
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_32
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 14
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_33
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 14
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_34
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 14
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: tumbleweed_35
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 14
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
