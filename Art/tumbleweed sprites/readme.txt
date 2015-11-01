@@ -1,0 +1,1 @@
+The tumbleweed sprite is rotated by 10 degrees further in each consecutive image.
