@@ -10,7 +10,7 @@ public class OptionsMenuManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
     {
-	
+        optionsMenuCanvas.enabled = false;
 	}
 	
 	// Update is called once per frame

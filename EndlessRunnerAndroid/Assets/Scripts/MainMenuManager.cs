@@ -7,7 +7,7 @@ public class MainMenuManager : MonoBehaviour
 
     public Canvas mainMenuCanvas;
     public Canvas optionsMenuCanvas;
-
+    public Canvas highScoreCanvas;
     // Use this for initialization
     void Start()
     {
@@ -29,5 +29,11 @@ public class MainMenuManager : MonoBehaviour
     {
         mainMenuCanvas.enabled = false;
         optionsMenuCanvas.enabled = true;
+    }
+
+    public void OpenHighScoreMenu()
+    {
+        mainMenuCanvas.enabled = false;
+        highScoreCanvas.enabled = true;
     }
 }
