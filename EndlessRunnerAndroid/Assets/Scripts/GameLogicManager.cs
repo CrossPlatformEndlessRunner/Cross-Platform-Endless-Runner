@@ -20,6 +20,9 @@ public class GameLogicManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        score.AddScore(scoreToAddEverySecond*Time.deltaTime);
+        if (player.IsAlive)
+        {
+            score.AddScore(scoreToAddEverySecond * Time.deltaTime);
+        }
     }
 }
