@@ -4,7 +4,6 @@ using System.Collections;
 public class Player : MonoBehaviour
 {
 
-    private SpriteRenderer      playerSprite = null;
     private bool                isAlive = true;
     private Vector3             startPosition;
 
@@ -17,9 +16,7 @@ public class Player : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        playerSprite = GetComponent<SpriteRenderer>();
         startPosition = transform.position;
-        startPosition.y = -2.8f;    //ground height TODO: set this properly
     }
 
     // Update is called once per frame
@@ -27,8 +24,6 @@ public class Player : MonoBehaviour
     {
 
     }
-
-
 
     // TODO: Fix not being able to jump whilst position is being adjusted.
     void OnCollisionStay2D(Collision2D other)
@@ -38,7 +33,7 @@ public class Player : MonoBehaviour
             if (other.collider.CompareTag("Ground"))
             {
                 float step = returnToPosSpeed * Time.deltaTime;
-                Debug.Log(Vector3.Distance(startPosition, transform.position));
+                //Debug.Log(Vector3.Distance(startPosition, transform.position));
 
                 if (transform.position.x - startPosition.x >= positionAdjustmentThreshold)
                 {

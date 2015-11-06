@@ -36,4 +36,9 @@ public class MainMenuManager : MonoBehaviour
         mainMenuCanvas.enabled = false;
         highScoreCanvas.enabled = true;
     }
+
+    public void PlayGame()
+    {
+        Application.LoadLevel((int)Utilities.LEVEL_NUMS.GAME);
+    }
 }

@@ -24,5 +24,29 @@ public class GameLogicManager : MonoBehaviour
         {
             score.AddScore(scoreToAddEverySecond * Time.deltaTime);
         }
+        else
+        {
+            SaveHighScore();
+        }
+    }
+
+    private void GameOver()
+    {
+
+    }
+
+    private void SaveHighScore()
+    {
+        if (score != null)
+        {
+            if (score.PlayerScore > PlayerPrefs.GetFloat(Utilities.PlayerPrefsHighScoreString))
+            {
+                PlayerPrefs.SetFloat(Utilities.PlayerPrefsHighScoreString, score.PlayerScore);
+            }
+        }
+        else
+        {
+            Debug.LogError("Score is null.");
+        }
     }
 }

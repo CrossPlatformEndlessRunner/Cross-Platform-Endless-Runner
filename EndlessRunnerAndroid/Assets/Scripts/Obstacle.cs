@@ -21,6 +21,7 @@ public class Obstacle : MonoBehaviour
         if (other.collider.CompareTag("Player"))
         {
             Debug.Log("Player Hit");
+            
         }
     }
 }

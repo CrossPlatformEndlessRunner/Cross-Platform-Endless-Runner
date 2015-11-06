@@ -23,26 +23,44 @@ public class PauseMenuManager : MonoBehaviour
     {
         if (!isPaused)
         {
-            pauseMenuCanvas.enabled = true;
-            Time.timeScale = 0.0f;
-            isPaused = true;
+            Pause();
         }
         else
         {
-            pauseMenuCanvas.enabled = false;
-            Time.timeScale = 1.0f;
-            isPaused = false;
+            Unpause();
         }
     }
 
     public void RestartButton()
     {
-
+        pauseMenuCanvas.enabled = false;
+        Time.timeScale = 1.0f;
+        Application.LoadLevel(Application.loadedLevel);
     }
 
     public void ResumeButton()
     {
+        Unpause();
+    }
 
+    public void BackToMenuButton()
+    {
+        Time.timeScale = 1.0f;
+        Application.LoadLevel((int)Utilities.LEVEL_NUMS.MAIN_MENU);
+    }
+
+    private void Pause()
+    {
+        pauseMenuCanvas.enabled = true;
+        Time.timeScale = 0.0f;
+        isPaused = true;
+    }
+
+    private void Unpause()
+    {
+        pauseMenuCanvas.enabled = false;
+        Time.timeScale = 1.0f;
+        isPaused = false;
     }
 
     public bool IsPaused
