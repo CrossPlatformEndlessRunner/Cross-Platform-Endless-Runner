@@ -48,6 +48,13 @@ public class Player : MonoBehaviour
         }
     }
 
+    public void PlayerDeath()
+    {
+        Debug.Log("Player has died");
+        isAlive = false;
+        gameObject.SetActive(false);
+    }
+
     public bool IsAlive
     {
         get { return isAlive; }

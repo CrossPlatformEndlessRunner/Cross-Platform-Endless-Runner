@@ -8,6 +8,7 @@ public class Score : MonoBehaviour
     public string defaultScoreText = "Score: ";
     private Text scoreText;
     private float playerScore = 0;
+    private bool isGameOver = false;
 
     // Use this for initialization
     void Start()

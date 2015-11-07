@@ -6,7 +6,8 @@ public class Timer : MonoBehaviour
 {
     public string       defaultTimerText = "Timer: ";
     private Text        timerText = null;
-    private float timePassed = 0.0f;
+    private float       timePassed = 0.0f;
+    private bool        isGameOver = false;
 
     // Use this for initialization
     void Start()
@@ -18,9 +19,26 @@ public class Timer : MonoBehaviour
     void Update()
     {
         //if game has started
-        timePassed += Time.deltaTime;
+        if (!isGameOver)
+        {
+            timePassed += Time.deltaTime;      
+        }
         timerText.text = defaultTimerText + timePassed.ToString("F2");
+    }
 
+    void OnEnable()
+    {
+        GameLogicManager.playerIsDead += PlayerDeath;
+    }
+
+    void OnDisable()
+    {
+        GameLogicManager.playerIsDead -= PlayerDeath;
+    }
+
+    private void PlayerDeath()
+    {
+        isGameOver = true;
     }
 
     public float TimePassed
