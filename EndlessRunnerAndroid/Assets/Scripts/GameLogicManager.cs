@@ -13,7 +13,7 @@ public class GameLogicManager : MonoBehaviour
     public Button pause;
     public ObstacleSpawner obstacleSpawner1;
     private float scoreToAddEverySecond = 5.0f;
-    private float increaseInSpawnSpeedPerSecond = 5.0f;
+    private float increaseInSpawnSpeedPerSecond = 7.0f;
     private Player player = null;
     private Score score = null;
     private Timer timer = null;
@@ -36,6 +36,15 @@ public class GameLogicManager : MonoBehaviour
             {
                 obstacleSpawner1.IncreaseSpawnSpeed(increaseInSpawnSpeedPerSecond * Time.deltaTime);
             }
+
+            // Doubles the player's score
+            if (player.ScoreMultiplierEnabled)
+            {
+                score.AddScore(score.PlayerScore * 2.0f);
+                player.ScoreMultiplierEnabled = false;
+            }
+
+
         }
         else
         {

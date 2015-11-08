@@ -21,7 +21,15 @@ public class Obstacle : MonoBehaviour
         if (other.collider.CompareTag("Player"))
         {
             Debug.Log("Player Hit");
-            other.collider.GetComponent<Player>().PlayerDeath();
+            Player thePlayer = other.collider.GetComponent<Player>();
+            if (!thePlayer.ShieldEnabled)
+            {
+                other.collider.GetComponent<Player>().PlayerDeath();
+            }
+            else
+            {
+                gameObject.SetActive(false);
+            }
             
         }
     }

@@ -2,15 +2,15 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class OptionsMenuManager : MonoBehaviour {
+public class HowToPlayMenuManager : MonoBehaviour {
 
     public Canvas mainMenuCanvas;
-    public Canvas optionsMenuCanvas;
+    public Canvas howToPlayMenuCanvas;
 
 	// Use this for initialization
 	void Start () 
     {
-        optionsMenuCanvas.enabled = false;
+        howToPlayMenuCanvas.enabled = false;
 	}
 	
 	// Update is called once per frame
@@ -22,6 +22,6 @@ public class OptionsMenuManager : MonoBehaviour {
     public void BackToMainMenu()
     {
         mainMenuCanvas.enabled = true;
-        optionsMenuCanvas.enabled = false;
+        howToPlayMenuCanvas.enabled = false;
     }
 }

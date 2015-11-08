@@ -5,6 +5,9 @@ public class Player : MonoBehaviour
 {
 
     private bool                isAlive = true;
+    private bool                shieldEnabled = false;
+    private bool scoreMultiplierEnabled = false;
+
     private Vector3             startPosition;
 
     // The speed at which the player moves towards the startPosition after passing the distance threshold.
@@ -13,16 +16,41 @@ public class Player : MonoBehaviour
     // Distance threshold the player must pass before they being to move towards the startPosition.
     public float                positionAdjustmentThreshold = 1.0f;
 
+    private float               shieldTimer = 0.0f;
+    private float               shieldTimeLimit = 6.0f;
+
+    public SpriteRenderer shieldRenderer = null;
+    
+
     // Use this for initialization
     void Start()
     {
         startPosition = transform.position;
+        if (shieldRenderer != null)
+        {
+            if (shieldRenderer.enabled)
+            {
+                shieldRenderer.enabled = false;
+            }
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (shieldEnabled)
+        {
+            if (shieldTimer >= shieldTimeLimit)
+            {
+                shieldEnabled = false;
+                shieldTimer = 0.0f;
+                shieldRenderer.enabled = false;
+            }
+            else
+            {
+                shieldTimer += Time.deltaTime;
+            }
+        }
     }
 
     // TODO: Fix not being able to jump whilst position is being adjusted.
@@ -59,6 +87,23 @@ public class Player : MonoBehaviour
     {
         get { return isAlive; }
         set { isAlive = value; }
+    }
+
+    public bool ShieldEnabled
+    {
+        get { return shieldEnabled; }
+    }
+
+    public void EnableShield()
+    {
+        shieldEnabled = true;
+        shieldRenderer.enabled = true;
+    }
+
+    public bool ScoreMultiplierEnabled
+    {
+        get { return scoreMultiplierEnabled; }
+        set { scoreMultiplierEnabled = value; }
     }
 
 }
