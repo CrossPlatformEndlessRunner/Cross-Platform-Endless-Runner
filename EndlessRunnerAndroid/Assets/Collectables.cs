@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿//Author: Callum Buerckner 2015
+using UnityEngine;
 using System.Collections;
 
 public class Collectables : MonoBehaviour {

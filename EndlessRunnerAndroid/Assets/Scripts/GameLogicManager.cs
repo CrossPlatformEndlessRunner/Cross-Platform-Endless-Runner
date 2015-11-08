@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿//Reginald Ashman 2015
+using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
