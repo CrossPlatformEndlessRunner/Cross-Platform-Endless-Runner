@@ -11,7 +11,9 @@ public class GameLogicManager : MonoBehaviour
     public static event OnPlayerIsDead playerIsDead;
 
     public Button pause;
+    public ObstacleSpawner obstacleSpawner1;
     private float scoreToAddEverySecond = 5.0f;
+    private float increaseInSpawnSpeedPerSecond = 5.0f;
     private Player player = null;
     private Score score = null;
     private Timer timer = null;
@@ -30,6 +32,10 @@ public class GameLogicManager : MonoBehaviour
         if (player.IsAlive)
         {
             score.AddScore(scoreToAddEverySecond * Time.deltaTime);
+            if (obstacleSpawner1 != null)
+            {
+                obstacleSpawner1.IncreaseSpawnSpeed(increaseInSpawnSpeedPerSecond * Time.deltaTime);
+            }
         }
         else
         {

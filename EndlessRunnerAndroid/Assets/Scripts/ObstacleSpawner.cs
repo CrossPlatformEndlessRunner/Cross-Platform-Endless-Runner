@@ -33,6 +33,11 @@ public class ObstacleSpawner : MonoBehaviour
         spawnTimer = 0.0f;
     }
 
+    public void IncreaseSpawnSpeed(float increaseInSpeed)
+    {
+        spawnSpeed += increaseInSpeed;
+    }
+
     void SpawnObject()
     {
         GameObject obj = objPool.GetPooledObject();
